@@ -37,12 +37,13 @@ header {
 	justify-content: center;
 	align-items: center;
 	display: flex;
-	padding: 150px;
+	padding: 32px 0px;
+	gap: 125px;
 }
 
 .content-info {
+	width: 450px;
 	flex-wrap: wrap;
-	flex: 1;
 }
 
 .content-info h1 {
@@ -67,7 +68,4 @@ header {
 	font-weight: bold;
 }
 
-.content-image {
-	width: 400px;
-	flex: 2;
-}
+.content-image {}
