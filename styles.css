@@ -102,6 +102,33 @@ header {
 }
 
 .card-subtext {
+	color: #1F2937;
 	flex-wrap: wrap;
 	font-size: 16px;
+}
+
+.quote_section {
+	display: flex;
+	padding: 150px;
+	justify-content: center;
+	align-items: center;
+	background-color: #E5E7EB;
+}
+
+.quote_section q {
+	font-size: 36px;
+	font-style: italic;
+	color: #1F2937;
+}
+
+.quote_section p {
+	text-align: end;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.quote-content {
+	flex-basis: 800px;
+	display: flex;
+	flex-direction: column;
 }
