@@ -11,6 +11,14 @@ header {
 	background-color: #1F2937;
 }
 
+footer {
+	padding: 30px;
+	font-size: 20px;
+	text-align: center;
+	background-color: #1F2937;
+	color: #F9FAF8;
+}
+
 
 
 .menu {
@@ -131,4 +139,36 @@ header {
 	flex-basis: 800px;
 	display: flex;
 	flex-direction: column;
+}
+
+.call_section {
+	padding: 160px;
+}
+
+.action_container {
+	display: flex;
+	justify-content: space-around;
+	border-radius: 10px;
+	align-items: center;
+	padding: 76px;
+	background-color: #3882F6;
+}
+
+.action_content {
+	color: #F9FAF8;
+}
+
+.action_content p {
+	font-size: 20px;
+}
+
+.action_button button {
+	font-size: 20px;
+	border-radius: 10px;
+	color: #F9FAF8;
+	font-weight: bold;
+	background-color: #3882F6;
+	padding: 8px;
+	width: 160px;
+	border: 3px solid white;
 }
